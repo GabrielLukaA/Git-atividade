@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+.backgroundBlue{
+    background-color: blue;
+}
+.backgroundGreen{
+    background-color: blue;
+}
+.backgroundRed{
+    background-color: blue;
+}
+.botao{
+    border: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    box-shadow: 1px 1px 8px grey;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover {
+    color: rgb(95, 204, 240);
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.meio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:910px;
+
+}
+.central{
+    flex-direction: column;
+    height: auto;
+    width: auto ;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.titulo{
+    display: flex;
+    align-self: center;
+    justify-self:center ;
+}
